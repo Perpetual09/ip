@@ -40,7 +40,7 @@ public class Duke {
                     tasks.event(res, ui, storage);
                 } else {
                     // Exception: eg. ???
-                    throw new DukeException("     ☹ OOPS!!! I'm sorry, but I don't know what that means :-(");
+                    throw new DukeException("      OOPS!!! I'm sorry, but I don't know what that means :-(");
                 }
             } catch (NumberFormatException e) {
                 // Exception: eg. done some words
