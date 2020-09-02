@@ -1,8 +1,3 @@
-package Duke;
-
-/**
- * Represents a series of operations provided by the Duke bot.
- */
 public enum Operations {
     DONE,
     DELETE,
@@ -11,5 +6,4 @@ public enum Operations {
     DEADLINE,
     EVENT,
     BYE,
-    FIND,
 }
